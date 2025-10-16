@@ -1,13 +1,14 @@
-sentence-transformers==2.2.2
-langchain
 flask
-pypdf
+flask-cors
 python-dotenv
+pypdf
 pinecone[grpc]
+langchain==0.2.0
 langchain-pinecone
 langchain_community
 langchain_openai
 langchain_experimental
-sentence-transformers
-flask-cors
-langchain-groq
+langchain-huggingface==0.2.0
+sentence-transformers==2.2.2
+huggingface-hub==0.17.4
+# langchain-groq  # only include if you actually use ChatGroq
