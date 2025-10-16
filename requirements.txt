@@ -10,3 +10,4 @@ langchain_openai
 langchain_experimental
 sentence-transformers
 flask-cors
+langchain-groq
